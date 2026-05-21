@@ -1,7 +1,10 @@
+import Navbar from "@/components/Navbar";
 
 
 export default function Home() {
   return (
-   <h1>Landing page of Awast</h1>
+  <div>
+    <Navbar/>
+  </div>
   );
 }
