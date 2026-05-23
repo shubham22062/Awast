@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
   <div>
-    <video className="w-full h-screen"
+    <video className="w-full h-full"
     autoPlay
     muted
     loop
