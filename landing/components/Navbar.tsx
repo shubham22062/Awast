@@ -5,13 +5,14 @@ export default function Navbar() {
     <nav className="flex justify-between items-center p-4 fixed top-0 w-full z-50">
       
       {/* Logo */}
-      <Image
-        src="/Logo.svg"
-        alt="Logo"
-        width={100}
-        height={100}
-        className="object-contain"
-      />
+    <Image
+      src="/Logo.svg"
+      alt="Logo"
+      width={150}
+      height={150}
+      priority
+      className="object-contain"
+    />
 
       {/* Center Menu */}
       <div className="border border-white/10 rounded-full bg-black/70 backdrop-blur-md px-6 py-3 flex gap-6 items-center">
@@ -38,7 +39,7 @@ export default function Navbar() {
 
       {/* Right Side */}
       <div className="flex gap-4 items-center">
-        <span className="cursor-pointer">
+        <span className="cursor-pointer text-white">
           Learn More
         </span>
 
