@@ -39,11 +39,11 @@ export default function Navbar() {
 
       {/* Right Side */}
       <div className="flex gap-4 items-center">
-        <span className="cursor-pointer text-white">
+        <span className="cursor-pointer text-white hover:underline">
           Learn More
         </span>
 
-        <button className="rounded-md px-5 py-3 bg-black text-white font-medium  transition">
+        <button className="rounded-md p-3 bg-teal-400 text-white font-medium transition-transform duration-300 hover:scale-105">
           Get Started
         </button>
       </div>
