@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen overflow-x-hidden">
 
       {/* Background Video */}
       <video
