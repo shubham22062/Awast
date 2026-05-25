@@ -43,7 +43,7 @@ export default function Navbar() {
           Learn More
         </span>
 
-        <button className="rounded-md p-3 bg-teal-400 text-white font-medium transition-transform duration-300 hover:scale-105">
+        <button className="rounded-2xl p-3 bg-teal-400 text-white font-medium transition-transform duration-300 hover:scale-105">
           Get Started
         </button>
       </div>
