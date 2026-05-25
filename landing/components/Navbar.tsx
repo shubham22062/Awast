@@ -21,7 +21,7 @@ export default function Navbar() {
         </span>
 
         <span className="text-white hover:underline cursor-pointer">
-          Pricing
+          Services
         </span>
 
         <span className="text-white hover:underline cursor-pointer">

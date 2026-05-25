@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <div className="relative z-10">
         <Navbar />
         <Hero />
+        <Services/>
       </div>
 
     </div>
