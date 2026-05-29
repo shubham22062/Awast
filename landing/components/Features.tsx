@@ -23,7 +23,7 @@ export default function Features(){
             </div>
 
             {/* Responsive Grid Layout */}
-            <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
 
                 {/* Card 1 */}
                 <div className="border border-teal-300 rounded-md w-full min-h-[200px] p-4 transition-transform duration-300 hover:scale-105 bg-transparent">
