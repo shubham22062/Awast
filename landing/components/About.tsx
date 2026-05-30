@@ -6,7 +6,7 @@ export default function About(){
             <span className="text-teal-300 text-7xl">people everywhere</span>
             <p className="text-gray-400 text-xl pt-6">Join thousands of satisfied users who have transformed their workflow</p>
 
-            <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
+            <div className="pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 px-20">
 
                 {/* Card 1 */}
                 <div className="border border-teal-300 rounded-md w-full min-h-[200px] p-4 transition-transform duration-300 hover:scale-105 bg-transparent">
@@ -35,14 +35,7 @@ export default function About(){
                     <p className="text-gray-400 text-sm mt-1">We will connect you to your tutors in limited time</p>
                 </div>
 
-                {/* Card 4 */}
-                <div className="border border-teal-300 rounded-md w-full min-h-[200px] p-4 transition-transform duration-300 hover:scale-105 bg-transparent">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-11 text-white border border-teal-300 rounded-md p-2 transition-transform duration-300 hover:scale-105">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                    </svg>
-                    <span className="text-2xl text-gray-100 font-bold block pt-5">24/7 Customer Support</span>
-                    <p className="text-gray-400 text-sm mt-1">We are available a 100% of the time. At least our AI Agents are.</p>
-                </div>
+               
 
                 {/* Card 5 */}
                 <div className="border border-teal-300 rounded-md w-full min-h-[200px] p-4 transition-transform duration-300 hover:scale-105 bg-transparent">
@@ -71,15 +64,27 @@ export default function About(){
                     <p className="text-gray-400 text-sm mt-1">Everything is documented for your ease of use.</p>
                 </div>
 
-                {/* Card 8 */}
-                <div className="border border-teal-300 rounded-md w-full min-h-[200px] p-4 transition-transform duration-300 hover:scale-105 bg-transparent">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-11 text-white border border-teal-300 rounded-md p-2 transition-transform duration-300 hover:scale-105">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 0 0 2.25-2.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v2.25A2.25 2.25 0 0 0 6 10.5Zm0 9.75h2.25A2.25 2.25 0 0 0 10.5 18v-2.25a2.25 2.25 0 0 0-2.25-2.25H6a2.25 2.25 0 0 0-2.25 2.25V18A2.25 2.25 0 0 0 6 20.25Zm9.75-9.75H18a2.25 2.25 0 0 0 2.25-2.25V6A2.25 2.25 0 0 0 18 3.75h-2.25A2.25 2.25 0 0 0 13.5 6v2.25a2.25 2.25 0 0 0 2.25 2.25Z" />
-                    </svg>
-                    <span className="text-2xl text-gray-100 font-bold block pt-5">Multi-tenant Architecture</span>
-                    <p className="text-gray-400 text-sm mt-1">You can simply share passwords instead of buying new seats.</p>
-                </div>
+               
 
+            </div>
+
+            <div className="pt-20 px-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
+                <div className="border-2 border-teal-300 rounded-xl w-[250px] h-[100px] text-center items-center justify-center py-3 px-2">
+                        <span className="text-white font-bold text-4xl">10K+</span>
+                        <span className="block text-gray-400">Active Users</span>
+                </div>
+                 <div className="border-2 border-teal-300 rounded-xl w-[250px] h-[100px] text-center items-center justify-center py-3 px-2">
+                        <span className="text-white font-bold text-4xl">50K+</span>
+                        <span className="block text-gray-400">Tasks Completed</span>
+                </div>
+                 <div className="border-2 border-teal-300 rounded-xl w-[250px] h-[100px] text-center items-center justify-center py-3 px-2">
+                        <span className="text-white font-bold text-4xl">4.8/5</span>
+                        <span className="block text-gray-400">User Rating</span>
+                </div>
+                 <div className="border-2 border-teal-300 rounded-xl w-[250px] h-[100px] text-center items-center justify-center py-3 px-2">
+                        <span className="text-white font-bold text-4xl">24/7</span>
+                        <span className="block text-gray-400">Support</span>
+                </div>
             </div>
         </div>
     )
