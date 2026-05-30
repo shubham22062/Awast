@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Card from "@/components/card";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -32,6 +33,7 @@ export default function Home() {
         <Services/>
         <Features/>
         <About/>
+        <Card/>
       </div>
 
     </div>

@@ -68,7 +68,7 @@ export default function About(){
 
             </div>
 
-            <div className="pt-20 px-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
+            <div className="pt-20 px-20 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-7">
                 <div className="border-2 border-teal-300 rounded-xl w-[250px] h-[100px] text-center items-center justify-center py-3 px-2">
                         <span className="text-white font-bold text-4xl">10K+</span>
                         <span className="block text-gray-400">Active Users</span>
