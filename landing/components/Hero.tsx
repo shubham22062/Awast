@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-center px-4 pt-24">
+    <div className="flex flex-col items-center justify-center min-h-screen text-center px-4 pt-50">
 
       {/* Heading */}
       <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-white via-gray-200 to-white bg-clip-text text-transparent max-w-4xl leading-tight">

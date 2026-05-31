@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <div className="pt-24 flex flex-col justify-center items-center text-center">
+    <div className="pt-[500px] flex flex-col justify-center items-center text-center">
 
       <span className="border-2 border-teal-300 bg-white rounded-full p-2 text-black flex gap-2 transition-transform duration-300 hover:scale-105">
         <svg
