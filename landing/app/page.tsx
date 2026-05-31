@@ -19,10 +19,7 @@ export default function Home() {
           loop
           playsInline
         >
-          <source
-            src="https://res.cloudinary.com/dbdvicxun/video/upload/v1780222539/11353720-uhd_3840_2160_60fps_2_gx22i2.mp4"
-            type="video/mp4"
-          />
+          <source src={process.env.NEXT_PUBLIC_VIDEO_LINK} type="video/mp4" />
         </video>
 
         <div className="absolute inset-0 bg-black/40" />
