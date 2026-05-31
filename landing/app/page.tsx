@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Card from "@/components/card";
 import Features from "@/components/Features";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -34,6 +35,7 @@ export default function Home() {
         <Features/>
         <About/>
         <Card/>
+        <Footer/>
       </div>
 
     </div>
