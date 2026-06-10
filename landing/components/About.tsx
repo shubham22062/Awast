@@ -102,7 +102,7 @@ export default function About(){
                         Michael Chen
                         </h3>
                         <p className="text-sm text-gray-400">
-                        Content Creator
+                        Startup Founder
                         </p>
                     </div>
                     </div>
@@ -143,7 +143,7 @@ export default function About(){
                         Emma Wilson
                         </h3>
                         <p className="text-sm text-gray-400">
-                        Content Creator
+                        University Student
                         </p>
                     </div>
                     </div>
@@ -162,7 +162,7 @@ export default function About(){
                 <div className="mt-6">
                 <p className="mt-2  text-gray-400 leading-relaxed">
                     "It explains complex topics in a simple way and helps me prepare for exams much faster."
-                    
+
                     </p>
                 </div>
                 </div>
@@ -175,15 +175,15 @@ export default function About(){
                     
                     <div className="flex items-center gap-3">
                     <span className="flex items-center justify-center rounded-full bg-teal-300 text-white text-xl font-bold w-12 h-12">
-                        S
+                        D
                     </span>
 
                     <div>
                         <h3 className="text-lg font-bold text-white">
-                        Sarah Johnson
+                        David Miller
                         </h3>
                         <p className="text-sm text-gray-400">
-                        Content Creator
+                        Product Designer
                         </p>
                     </div>
                     </div>
@@ -201,7 +201,7 @@ export default function About(){
                 
                 <div className="mt-6">
                 <p className="mt-2  text-gray-400 leading-relaxed">
-                    “RiffinityAI has transformed how I work. The AI is incredibly intuitive and saves me hours every day!”
+                    "The user experience is fantastic. Quick responses and useful suggestions make it stand out from other AI tools."
                     </p>
                 </div>
                 </div>
