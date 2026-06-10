@@ -135,12 +135,12 @@ export default function About(){
                     
                     <div className="flex items-center gap-3">
                     <span className="flex items-center justify-center rounded-full bg-teal-300 text-white text-xl font-bold w-12 h-12">
-                        S
+                        E
                     </span>
 
                     <div>
                         <h3 className="text-lg font-bold text-white">
-                        Sarah Johnson
+                        Emma Wilson
                         </h3>
                         <p className="text-sm text-gray-400">
                         Content Creator
@@ -161,7 +161,8 @@ export default function About(){
                 
                 <div className="mt-6">
                 <p className="mt-2  text-gray-400 leading-relaxed">
-                    “RiffinityAI has transformed how I work. The AI is incredibly intuitive and saves me hours every day!”
+                    "It explains complex topics in a simple way and helps me prepare for exams much faster."
+                    
                     </p>
                 </div>
                 </div>
