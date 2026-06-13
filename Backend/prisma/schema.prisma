@@ -38,6 +38,6 @@ model Message {
 
 enum Role {
   user
-  Assitant
+  assistant
   system
 }
