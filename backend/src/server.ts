@@ -1,13 +1,7 @@
-import express, { response } from "express"
-
+import express from express;
 
 const app = express();
 
-app.get("/", (req,res)=>{
-    console.log("welcome")
-    
-}) 
-
-app.listen(8000, ()=>{
-    console.log("this is server is running on the port 8000")
+app.get("/" ,(req,res)=>{
+  console.log("this is my server which is i want ot bulid in for my bussimjess")
 })
